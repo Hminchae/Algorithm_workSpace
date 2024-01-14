@@ -1,3 +1,2 @@
-let S = readLine()!
-var arr = Array(S)
-print("\(arr.count)")
+let str = readLine()!
+print(str.map { String($0) }.count)
