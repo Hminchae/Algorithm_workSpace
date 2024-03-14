@@ -1,6 +1,2 @@
-let n = Int(readLine()!)!
-var sum: Int = 0
-for i in 1...n{
-    sum += i
-}
-print("\(sum)")
+let num = Int(readLine()!)!
+print(num * (num + 1) / 2) // 시그마 공식 n(n+1)/2
