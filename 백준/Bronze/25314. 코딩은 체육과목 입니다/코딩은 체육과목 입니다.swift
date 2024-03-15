@@ -1,7 +1,6 @@
-let N = Int(readLine()!)!
-let a: Int = N/4
+let num = Int(readLine()!)!
 
-for _ in 1...a{
-    print("long",terminator: " ")
+for _ in 1...num / 4 {
+    print("long", terminator: " ")
 }
 print("int")
