@@ -1,8 +1,4 @@
 let N = Int(readLine()!)!
-let value = Array(readLine()!)
-var sum = 0
+let result = readLine()!.map { Int(String($0))! }.reduce(0, +)
 
-for i in value{
-    sum += Int(String(i))!
-}
-print(sum)
+print(result)
